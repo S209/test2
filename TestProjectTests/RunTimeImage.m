@@ -1,18 +1,18 @@
 //
-//  TestProjectTests.m
-//  TestProjectTests
+//  RunTimeImage.m
+//  TestProject
 //
-//  Created by tuhaisheng on 17/2/6.
+//  Created by tuhaisheng on 17/2/22.
 //  Copyright © 2017年 tuhaisheng. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
-
-@interface TestProjectTests : XCTestCase
+#import "UIImage+UIImage_Hook_.h"
+@interface RunTimeImage : XCTestCase
 
 @end
 
-@implementation TestProjectTests
+@implementation RunTimeImage
 
 - (void)setUp {
     [super setUp];
@@ -27,15 +27,7 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
-    NSString * stinga = [NSString stringWithFormat:@"sfasdfasd"];
-    stinga = nil;
-    NSMutableArray * mutableArray = [[NSMutableArray alloc] init];
-    [mutableArray addObject:@"a"];
-    [mutableArray addObject:@"b"];
-    [mutableArray addObject:stinga];
-    [mutableArray addObject:@"c"];
-    
-    NSLog(@"%@",mutableArray);
+    UIImage * image = [UIImage myImageNamed:@"hhh"];
 }
 
 - (void)testPerformanceExample {

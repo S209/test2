@@ -15,6 +15,10 @@
 		050172E51E48C4D8005F0344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050172E31E48C4D8005F0344 /* LaunchScreen.storyboard */; };
 		050172F01E48C4D8005F0344 /* TestProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 050172EF1E48C4D8005F0344 /* TestProjectTests.m */; };
 		050172FB1E48C4D8005F0344 /* TestProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 050172FA1E48C4D8005F0344 /* TestProjectUITests.m */; };
+		0501730A1E48C526005F0344 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 050173091E48C526005F0344 /* BViewController.m */; };
+		0501E1D21E5DE01600DC7755 /* RunTimeImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0501E1D11E5DE01600DC7755 /* RunTimeImage.m */; };
+		050BEC721E5D629E00C0317C /* UIImage+UIImage_Hook_.m in Sources */ = {isa = PBXBuildFile; fileRef = 050BEC711E5D629E00C0317C /* UIImage+UIImage_Hook_.m */; };
+		05F6C2231E6012AD0007F8A2 /* NSObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F6C2221E6012AD0007F8A2 /* NSObjectTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		050172F61E48C4D8005F0344 /* TestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		050172FA1E48C4D8005F0344 /* TestProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestProjectUITests.m; sourceTree = "<group>"; };
 		050172FC1E48C4D8005F0344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		050173081E48C526005F0344 /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		050173091E48C526005F0344 /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		0501E1D11E5DE01600DC7755 /* RunTimeImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunTimeImage.m; sourceTree = "<group>"; };
+		050BEC701E5D629E00C0317C /* UIImage+UIImage_Hook_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIImage_Hook_.h"; sourceTree = "<group>"; };
+		050BEC711E5D629E00C0317C /* UIImage+UIImage_Hook_.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIImage_Hook_.m"; sourceTree = "<group>"; };
+		05F6C2211E6012AD0007F8A2 /* NSObjectTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectTest.h; sourceTree = "<group>"; };
+		05F6C2221E6012AD0007F8A2 /* NSObjectTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +121,12 @@
 				050172E31E48C4D8005F0344 /* LaunchScreen.storyboard */,
 				050172E61E48C4D8005F0344 /* Info.plist */,
 				050172D51E48C4D8005F0344 /* Supporting Files */,
+				050173081E48C526005F0344 /* BViewController.h */,
+				050173091E48C526005F0344 /* BViewController.m */,
+				050BEC701E5D629E00C0317C /* UIImage+UIImage_Hook_.h */,
+				050BEC711E5D629E00C0317C /* UIImage+UIImage_Hook_.m */,
+				05F6C2211E6012AD0007F8A2 /* NSObjectTest.h */,
+				05F6C2221E6012AD0007F8A2 /* NSObjectTest.m */,
 			);
 			path = TestProject;
 			sourceTree = "<group>";
@@ -127,6 +144,7 @@
 			children = (
 				050172EF1E48C4D8005F0344 /* TestProjectTests.m */,
 				050172F11E48C4D8005F0344 /* Info.plist */,
+				0501E1D11E5DE01600DC7755 /* RunTimeImage.m */,
 			);
 			path = TestProjectTests;
 			sourceTree = "<group>";
@@ -277,7 +295,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				050172DD1E48C4D8005F0344 /* ViewController.m in Sources */,
+				0501730A1E48C526005F0344 /* BViewController.m in Sources */,
 				050172DA1E48C4D8005F0344 /* AppDelegate.m in Sources */,
+				05F6C2231E6012AD0007F8A2 /* NSObjectTest.m in Sources */,
+				050BEC721E5D629E00C0317C /* UIImage+UIImage_Hook_.m in Sources */,
 				050172D71E48C4D8005F0344 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0501E1D21E5DE01600DC7755 /* RunTimeImage.m in Sources */,
 				050172F01E48C4D8005F0344 /* TestProjectTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +536,7 @@
 				050173011E48C4D8005F0344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		050173021E48C4D8005F0344 /* Build configuration list for PBXNativeTarget "TestProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +545,7 @@
 				050173041E48C4D8005F0344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		050173051E48C4D8005F0344 /* Build configuration list for PBXNativeTarget "TestProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +554,7 @@
 				050173071E48C4D8005F0344 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
